@@ -2,11 +2,11 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "John Doe",
-  initials: "JD",
+  name: "Varun S N",
+  initials: "VSN",
   url: "https://example.com",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Bengaluru, Karnataka",
+  locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
     "Full Stack Developer with a passion for building innovative solutions. Experienced in modern web technologies and cloud platforms.",
   summary:
@@ -30,30 +30,30 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "john.doe@example.com",
-    tel: "+1234567890",
+    email: "varun.sn13@gmail.com",
+    tel: "+918296741707",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/johndoe",
+        url: "https://github.com/arunSN2002",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/johndoe",
+        url: "https://linkedin.com/in/varun-naldurgkar-7533a3357/",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/johndoe",
+        url: "https://x.com/jeff23481",
         icon: Icons.x,
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@johndoe",
+        url: "https://youtube.com/@the_gamerguy_ytocn2387",
         icon: Icons.youtube,
         navbar: true,
       },
