@@ -2,8 +2,8 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "John Doe",
-  initials: "JD",
+  name: "Varun S N",
+  initials: "VSN",
   url: "https://example.com",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
