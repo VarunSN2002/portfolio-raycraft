@@ -14,7 +14,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  inViewMargin?: string; // kept for API compatibility, but not used in hook
   blur?: string;
 }
 
@@ -26,14 +26,14 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "0px 0px -50px 0px",
+  inViewMargin = "-50px", // still used as a prop if you want to repurpose it in styles
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef<HTMLDivElement | null>(null);
 
+  // Use only `once` to avoid the MarginType mismatch
   const inViewResult = useInView(ref, {
     once: true,
-    margin: inViewMargin,
   });
 
   const isInView = !inView || inViewResult;
@@ -65,4 +65,5 @@ const BlurFade = ({
     </AnimatePresence>
   );
 };
+
 export default BlurFade;
